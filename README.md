@@ -31,7 +31,7 @@ The purpose of this project is to create a visually appealing travel website whi
 ## How to Use  
 1. Clone this repository to your local machine:  
    ```bash  
-   git clone https://github.com/your-username/paksky-wings.git  
+   https://mirkashi.github.io/Paksky-Wings/
    ```  
 2. Open the `index.html` file in your web browser.  
 
