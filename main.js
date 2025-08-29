@@ -60,12 +60,12 @@ ScrollReveal().reveal(".showcase__btn", {
 });
 
 ScrollReveal().reveal(".banner__card", {
-  ...scrollRevealOption,
+  ....scrollRevealOption,
   interval: 500,
 });
 
 ScrollReveal().reveal(".discover__card", {
-  ...scrollRevealOption,
+  ....scrollRevealOption,
   interval: 500,
 });
 
@@ -74,3 +74,4 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 20,
   loop: true,
 });
+
