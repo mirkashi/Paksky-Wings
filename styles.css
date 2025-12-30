@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-@media (width < 375px) {
+@media (max-width: 374px) {
   .header__content h1 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -629,7 +629,7 @@ footer {
   text-align: center;
 }
 
-@media (width > 540px) {
+@media (min-width: 541px) {
   .destination__grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -673,7 +673,7 @@ footer {
   }
 }
 
-@media (width > 768px) {
+@media (min-width: 769px) {
   nav {
     position: static;
     padding: 2rem 1rem;
@@ -825,7 +825,7 @@ footer {
   }
 }
 
-@media (width > 1200px) {
+@media (min-width: 1201px) {
   .header__content {
     padding-inline: 1rem 0;
   }
