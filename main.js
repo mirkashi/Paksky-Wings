@@ -60,18 +60,26 @@ ScrollReveal().reveal(".showcase__btn", {
 });
 
 ScrollReveal().reveal(".banner__card", {
-  ....scrollRevealOption,
+  ...scrollRevealOption,
   interval: 500,
 });
 
 ScrollReveal().reveal(".discover__card", {
-  ....scrollRevealOption,
+  ...scrollRevealOption,
   interval: 500,
 });
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
   loop: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
 
